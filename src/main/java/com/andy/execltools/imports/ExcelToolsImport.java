@@ -79,7 +79,7 @@ public class ExcelToolsImport {
 
 	/**
 	 * 
-	 * 描述：获取Excel的载体实体类集合 <br>
+	 * 描述：获取Excel指定的sheet索引的载体实体类集合 <br>
 	 * 
 	 * @method ：excelImport<br>
 	 * @author ：wanglongjie<br>
