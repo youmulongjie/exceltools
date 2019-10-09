@@ -5,6 +5,17 @@
  */
 package com.andy.execltools.exports;
 
+import com.andy.execltools.exports.annotation.ExcelExportCol;
+import com.andy.execltools.exports.annotation.ExcelExportConfig;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellStyle;
+import org.apache.poi.ss.usermodel.DataFormat;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.streaming.SXSSFSheet;
+import org.apache.poi.xssf.streaming.SXSSFWorkbook;
+
 import java.beans.PropertyDescriptor;
 import java.io.ByteArrayOutputStream;
 import java.lang.reflect.Field;
@@ -17,18 +28,6 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CellStyle;
-import org.apache.poi.ss.usermodel.DataFormat;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.streaming.SXSSFSheet;
-import org.apache.poi.xssf.streaming.SXSSFWorkbook;
-
-import com.andy.execltools.exports.annotation.ExcelExportCol;
-import com.andy.execltools.exports.annotation.ExcelExportConfig;
 
 /**
  * 描述：Excel 导出工具类 <br>
@@ -392,8 +391,6 @@ public class ExcelToolsExport {
 	 * @method ：createWorkbook<br>
 	 * @author ：wanglongjie<br>
 	 * @createDate ：2015年12月2日下午3:01:03 <br>
-	 * @param flag
-	 *            ：true:xls(1997-2007) false:xlsx(2007以上)
 	 * @return WorkBook 工作薄对象
 	 */
 	private static Workbook createWorkbook() {
