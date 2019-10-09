@@ -1,5 +1,5 @@
 /**
- * @author ：wanglongjie<br>
+ * @author ：Andy.wang<br>
  * @createDate ：2015年12月2日上午10:44:28<br>
  */
 package com.andy.execltools.imports.annotation;
@@ -16,7 +16,7 @@ import java.lang.annotation.Target;
  * 2、该注解类用在类属性上，获取Excel所在列的记录<br>
  * 
  * @file ：ExcelImportCol.java<br>
- * @author ：wanglongjie<br>
+ * @author ：Andy.wang<br>
  * @createDate ：2015年12月2日上午10:44:28<br>
  * 
  */
@@ -28,7 +28,7 @@ public @interface ExcelImportCol {
 	 * 描述：Excel 所在列 <br>
 	 * 
 	 * @method ：col<br>
-	 * @author ：wanglongjie<br>
+	 * @author ：Andy.wang<br>
 	 * @createDate ：2015年12月2日上午10:44:59 <br>
 	 * @return Excel 所在列
 	 */

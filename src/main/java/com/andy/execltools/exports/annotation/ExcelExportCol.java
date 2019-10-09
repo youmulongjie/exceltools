@@ -1,5 +1,5 @@
 /**
- * @author ：wanglongjie<br>
+ * @author ：Andy.wang<br>
  * @createDate ：2015年12月2日下午2:26:29<br>
  */
 package com.andy.execltools.exports.annotation;
@@ -16,7 +16,7 @@ import java.lang.annotation.Target;
  * 2、该注解类用在类属性上，获取Excel的列标题头和列索引（从0开始）<br>
  * 
  * @file ：ExcelExportCol.java<br>
- * @author ：wanglongjie<br>
+ * @author ：Andy.wang<br>
  * @createDate ：2015年12月2日下午2:26:29<br>
  * 
  */
@@ -28,7 +28,7 @@ public @interface ExcelExportCol {
 	 * 描述：列标题头说明 <br>
 	 * 
 	 * @method ：colHeaderDesc<br>
-	 * @author ：wanglongjie<br>
+	 * @author ：Andy.wang<br>
 	 * @createDate ：2015年12月2日下午2:27:15 <br>
 	 * @return 列标题头说明
 	 */
@@ -39,7 +39,7 @@ public @interface ExcelExportCol {
 	 * 描述：所在列索引，下标从0开始 <br>
 	 * 
 	 * @method ：cols<br>
-	 * @author ：wanglongjie<br>
+	 * @author ：Andy.wang<br>
 	 * @createDate ：2015年12月2日下午2:27:38 <br>
 	 * @return 所在列索引，下标从0开始
 	 */
@@ -62,7 +62,7 @@ public @interface ExcelExportCol {
 	 * </pre>
 	 * 
 	 * @method ：cols<br>
-	 * @author ：wanglongjie<br>
+	 * @author ：Andy.wang<br>
 	 * @Date 2016年11月2日 上午11:25:04 <br>
 	 * @return
 	 */

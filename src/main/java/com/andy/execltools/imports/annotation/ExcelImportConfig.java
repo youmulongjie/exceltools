@@ -1,5 +1,5 @@
 /**
- * @author ：wanglongjie<br>
+ * @author ：Andy.wang<br>
  * @createDate ：2015年12月2日上午10:21:11<br>
  */
 package com.andy.execltools.imports.annotation;
@@ -17,7 +17,7 @@ import java.lang.annotation.Target;
  * 3、如果 notNullCols 方法中每一列都为空，则系统认为该条数据不正确，需去除 <br>
  * 
  * @file ：ExcelImportConfig.java<br>
- * @author ：wanglongjie<br>
+ * @author ：Andy.wang<br>
  * @createDate ：2015年12月2日上午10:21:11<br>
  * 
  */
@@ -29,7 +29,7 @@ public @interface ExcelImportConfig {
 	 * 描述：读取Excel数据记录的开始行，默认为1，即从第1行开始 <br>
 	 * 
 	 * @method ：startLine<br>
-	 * @author ：wanglongjie<br>
+	 * @author ：Andy.wang<br>
 	 * @createDate ：2015年12月2日上午10:21:48 <br>
 	 * @return 有效数据记录的开始行
 	 */
@@ -44,7 +44,7 @@ public @interface ExcelImportConfig {
 	 * 3、如果非空列数组不为null，例如为[0,1]，则若每行的第0列、第1列同时都为空，则不读取该行记录；反之读取该行记录<br>
 	 * 
 	 * @method ：notNullCols<br>
-	 * @author ：wanglongjie<br>
+	 * @author ：Andy.wang<br>
 	 * @createDate ：2015年12月2日上午10:28:57 <br>
 	 * @return Excel数据记录非空列索引数组
 	 */
