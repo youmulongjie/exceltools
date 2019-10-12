@@ -6,7 +6,7 @@
     <version>0.0.1-RELEASE</version>
     <packaging>jar</packaging>
     <name>${dict}</name>
-    <description>Excel 导入、导出工具</description>
+    <description>Excel 导入、导出工具 </description>
 
     <url>http://maven.apache.org</url>
 
