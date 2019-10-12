@@ -5,6 +5,7 @@
     <artifactId>exceltools</artifactId>
     <version>0.0.1-RELEASE</version>
     <packaging>jar</packaging>
+
     <name>${dict}</name>
     <description>Excel 导入、导出工具</description>
 
